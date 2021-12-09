@@ -373,7 +373,6 @@ void editorOpen(char *filename) {
   E.dirty = 0;
 }
 
-
 void editorSave() {
    if (E.filename == NULL) {
     E.filename = editorPrompt("Save as: %s (ESC to cancel)");
